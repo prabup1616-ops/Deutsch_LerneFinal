@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deutsch Playbook</title>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Deutsch Playbook</h1>
+    <p>Interactive German B1 Grammar Trainer</p>
+  </header>
+
+  <div class="stats">
+    <div class="card">
+      <h2 id="attempted">0</h2>
+      <p>Attempted</p>
+    </div>
+
+    <div class="card">
+      <h2 id="correct">0</h2>
+      <p>Correct</p>
+    </div>
+
+    <div class="card">
+      <h2 id="streak">0🔥</h2>
+      <p>Streak</p>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button onclick="shuffleQuestions()">Random Practice</button>
+    <button onclick="resetProgress()">Reset</button>
+  </div>
+
+  <div id="questionsContainer"></div>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
