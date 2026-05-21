@@ -1,5 +1,4 @@
 # Deutsch_LerneFinal
-# Deutsch Playbook 🇩🇪
 
 Interactive German B1 grammar trainer.
 
